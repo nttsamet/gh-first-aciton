@@ -6,5 +6,9 @@ jobs:
     steps:
      - name: print greeting
        run: echo "Hello World"
+     - name: checking
+       run: |
+           echo "First Output"
+           echo "Second Output"
      - name: print goodbye
        run: echo "Bye"
